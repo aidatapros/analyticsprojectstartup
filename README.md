@@ -31,33 +31,6 @@ This table captures project requirements using the MOSCOW format, with the follo
 
 Update this table with your project's specific requirements and priorities.
 
-### Requirements Traceability Matrix
-
-This register matrix provides an organized overview of all the requirements for the Power BI Accelerator project and maps them to their corresponding test case IDs. This ensures that each requirement is tested, validated, and tracked through to completion.
-
-| Requirement ID | Requirement Description                                  | Test Cases   | Status       | % Complete  |
-|----------------|-----------------------------------------------------------|--------------|--------------|-------------|
-| REQ001         | The dashboard must provide a real-time sales overview.    | TC001, TC002 | In Progress  | 50%         |
-| REQ002         | Users should be able to filter data by date ranges.       | TC003, TC004 | Completed    | 100%        |
-| REQ003         | Inventory levels must be displayed with visual alerts.    | TC005, TC006 | Not Started  | 0%          |
-| REQ004         | Data integration from the Integrated Justice Information System (IJIS). | TC007, TC008 | In Progress | 75%         |
-| REQ005         | Provide export functionality for all reports in Excel format. | TC009, TC010 | Completed  | 100%        |
-| REQ006         | Implement role-based access controls for different user groups. | TC011, TC012 | In Progress | 60%         |
-| REQ007         | The dashboard must be mobile-responsive.                  | TC013, TC014 | Not Started | 0%          |
-
-## Guidelines for Register Maintenance
-
-1. **Requirement Addition**: When a new requirement is identified, add it to this register with a comprehensive description.
-2. **Test Case Association**: Ensure each requirement is linked to its corresponding test case IDs. This guarantees that requirements are validated through testing.
-3. **Status & Completion Tracking**: Regularly update the status and percentage completion of each requirement to keep stakeholders informed.
-4. **Review & Documentation**: Periodically review the register for accuracy and document any changes or updates made to the requirements or their associated test cases.
-
-By diligently maintaining this register, we ensure each requirement's progression is transparent, tested, and validated, ensuring the success of our Power BI accelerator.
-
-
-
-
-
 ### Data Source Register
 
 This register provides an overview of all data sources used in the Power BI Accelerator project, detailing specifics, update frequency, status, data ownership, and authentication method for each source.
@@ -131,6 +104,28 @@ Guidelines for Calculation and Register Maintenance
 
 By maintaining this register, we aim for clarity, accuracy, and consistency in our DAX calculations and KPIs, ensuring the reliability and relevance of our Power BI reports.
 
+### Requirements Traceability Matrix
+
+This register matrix provides an organized overview of all the requirements for the Power BI Accelerator project and maps them to their corresponding test case IDs. This ensures that each requirement is tested, validated, and tracked through to completion.
+
+| Requirement ID | Requirement Description                                  | Test Cases   | Status       | % Complete  |
+|----------------|-----------------------------------------------------------|--------------|--------------|-------------|
+| REQ001         | The dashboard must provide a real-time sales overview.    | TC001, TC002 | In Progress  | 50%         |
+| REQ002         | Users should be able to filter data by date ranges.       | TC003, TC004 | Completed    | 100%        |
+| REQ003         | Inventory levels must be displayed with visual alerts.    | TC005, TC006 | Not Started  | 0%          |
+| REQ004         | Data integration from the Integrated Justice Information System (IJIS). | TC007, TC008 | In Progress | 75%         |
+| REQ005         | Provide export functionality for all reports in Excel format. | TC009, TC010 | Completed  | 100%        |
+| REQ006         | Implement role-based access controls for different user groups. | TC011, TC012 | In Progress | 60%         |
+| REQ007         | The dashboard must be mobile-responsive.                  | TC013, TC014 | Not Started | 0%          |
+
+Guidelines for Requirements Traceability Register Maintenance
+
+1. **Requirement Addition**: When a new requirement is identified, add it to this register with a comprehensive description.
+2. **Test Case Association**: Ensure each requirement is linked to its corresponding test case IDs. This guarantees that requirements are validated through testing.
+3. **Status & Completion Tracking**: Regularly update the status and percentage completion of each requirement to keep stakeholders informed.
+4. **Review & Documentation**: Periodically review the register for accuracy and document any changes or updates made to the requirements or their associated test cases.
+
+By diligently maintaining this register, we ensure each requirement's progression is transparent, tested, and validated, ensuring the success of our Power BI accelerator.
 
 High Change Management Register (Individual Change Level)
 
@@ -140,7 +135,7 @@ High Change Management Register (Individual Change Level)
 | #2        | Change in visual design for the dashboard           | @janedoe     | Jan 2, 2023    | +1 day             | Allocate extra day for UI adjustments.                 | Approved   | @tomsmith   | Jan 3, 2023   |
 | #3        | Incorporation of historical data for the past 5 years| @aliceblue   | Jan 3, 2023    | +5 days            | Extend data preparation phase by 5 days.               | Rejected   | @tomsmith   | Jan 4, 2023   |
 
-## Change Management Process
+### Change Management Process
 
 1. **Request a Change**: If you identify a need for change, add it to this register with a detailed description and the potential impact on the timeline.
 2. **Review**: The project lead will review the change, assessing its impact and feasibility.
@@ -150,17 +145,16 @@ High Change Management Register (Individual Change Level)
 
 
 
-## Additional Resources
+### Additional Resources
 
 - [Power BI Official Documentation](https://docs.microsoft.com/en-us/power-bi/)
 - [Microsoft Certified: Power BI Expert Exam Details](https://learn.microsoft.com/en-us/certifications/power-bi)
 - [Sample PL-300 Exam Questions](https://www.microsoft.com/en-us/learning/pl-300.aspx)
 
-## Contact Information
+### Contact Information
 
 For questions or additional information, please contact:
 
-- Email: [your@email.com](mailto:your@email.com)
-- Phone: +1 (123) 456-7890
+- Email: peter@aidarwin.com.au
 
-We look forward to helping you succeed in the Power BI PL-300 exam and advancing your skills in data preparation, modeling, visualization, and deployment!
+We look forward to helping you succeed in your Analytics Project Startup!
