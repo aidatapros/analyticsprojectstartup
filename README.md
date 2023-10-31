@@ -6,7 +6,7 @@ The following assets can be used to document the requirements :
 
 ### Project Requirements - MOSCOW Format
 
-This table captures project requirements using the MOSCOW format, with the following Requirement Groups: 
+This table captures project requirements using the MOSCOW format, with high level requirements gathered at a workshop assembled into individual Requirements and grouped by Requirement Group :
 
 | Requirement Group        | Requirement ID | Requirement Name         | Must Have | Should Have | Could Have | Won't Have |
 |--------------------------|----------------|--------------------------|-----------|-------------|------------|------------|
