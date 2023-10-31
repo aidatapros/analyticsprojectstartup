@@ -4,6 +4,33 @@ It is expected that as a Power BI Data Analyst you will be wearing the hat of a 
 
 The following assets can be used to document the requirements :
 
+### Project Requirements - MOSCOW Format
+
+This table captures project requirements using the MOSCOW format, with the following Requirement Groups: 
+
+| Requirement Group        | Requirement ID | Requirement Name         | Must Have | Should Have | Could Have | Won't Have |
+|--------------------------|----------------|--------------------------|-----------|-------------|------------|------------|
+| A. Group 1               | B01            | Requirement Name 1       | ✅       |             |            |            |
+| A. Group 1               | B02            | Requirement Name 2       | ✅       |             |            |            |
+|--------------------------|----------------|--------------------------|-----------|-------------|------------|------------|
+| B. Group 2               | X01            | Requirement Name 3       | ✅       |            |            |            |
+| B. Group 2               | X02            | Requirement Name 4       | ✅       |            |            |            |
+| B. Group 2               | X02            | Requirement Name 5       | ✅       |            |            |            |
+| B. Group 2               | X03            | Requirement Name 6       |          |             | ✅         |            |
+| B. Group 2               | X03            | Requirement Name 7       |          |             | ✅         |            |
+|--------------------------|----------------|--------------------------|-----------|-------------|------------|------------|
+| C. Group 3               | R01            | Requirement Name 8       | ✅       | ✅          |            |            |
+| C. Group 3               | R02            | Requirement Name 9       | ✅       | ✅           |            |            |
+|--------------------------|----------------|--------------------------|-----------|-------------|------------|------------|
+
+
+- ✅ Must Have: Critical requirements that must be implemented.
+- ✅ Should Have: Important requirements that should be considered.
+- ✅ Could Have: Desirable requirements that could be implemented if resources allow.
+- ✅ Won't Have: Requirements that are explicitly excluded from the current scope.
+
+Update this table with your project's specific requirements and priorities.
+
 ### Requirements Traceability Matrix
 
 This register matrix provides an organized overview of all the requirements for the Power BI Accelerator project and maps them to their corresponding test case IDs. This ensures that each requirement is tested, validated, and tracked through to completion.
