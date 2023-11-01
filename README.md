@@ -39,7 +39,8 @@ Update this table with your project's specific requirements and priorities.
 
 ### Data Source Register
 
-This register provides an overview of all data sources used in the Power BI Accelerator project, detailing specifics, update frequency, status, data ownership, and authentication method for each source.
+This register provides an overview of all data sources used in the Power BI Accelerator project, detailing specifics, update frequency, status, data ownership, and authentication method for each source.  This is a high level list of data sources you will connect to in order to then select tables to bring into the Power Query Editor.
+
 
 | Source ID | Data Source Name                        | Description                                                | Type      | Location/Endpoint         | Update Frequency | Status     | Data Owner    | Authentication By       |
 |-----------|-----------------------------------------|------------------------------------------------------------|-----------|---------------------------|------------------|------------|---------------|-------------------------|
@@ -60,6 +61,8 @@ Data Source Management Guidelines
 By maintaining this register, we aim for transparency, accuracy, and security in our data sources, the backbone of our Power BI reports.
 
 ### High Level Table Register (Table or Table Group Level)
+
+This is a lower level list of datasets you will bring into the Power Query Editor.
 
 | Table Group | Table Name | Source | Mapping | Transformation | Calculation | KPI | Report |
 |-------------|------------|--------|---------|----------------|-------------|-----|--------|
