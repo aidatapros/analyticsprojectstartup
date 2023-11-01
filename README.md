@@ -86,9 +86,23 @@ This is a lower level list of datasets you will bring into the Power Query Edito
 
 ### Visual Design
 
+Wallpaper :
+
 A blank canvas is the usual starting place for your Power BI Report.   It will help to get your canvas looking like a professional dashboard before you start.  This immediately gets you and your clients thinking about how the data needs to look.
 
 ![Concept 1 Wallpaper Starter](https://github.com/aidarwin/analyticsprojectstartup/assets/103006306/8910d20f-0740-47cb-803c-26790ce15e73)
+
+Click anywhere on your blank page, select the page settings and change the following attributes in the Canvas settings to apply your visual canvas :
+1. Click Browse and location your canvas image
+2. Select on Fit to Page
+3. Set the transparency to 0%
+![image](https://github.com/aidarwin/analyticsprojectstartup/assets/103006306/3e4d3405-f2f1-4a8a-9247-bdc43d658ec6)
+
+Report Theme :
+
+Apply a Report Theme to tie together all of the other visual design as per your customer branding guidlines.  A report theme allows you to predefine the colours used through the report to ensure they are consistent with client branding guidelines.
+
+https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes
 
 
 ### DAX Calculation & KPI Register: Power BI Accelerator Project
