@@ -2,7 +2,13 @@
 
 It is expected that as a Power BI Data Analyst you will be wearing the hat of a Business Analyst in the idea creation and project startup phase of an analytics project.  
 
-The following assets can be used to document the requirements :
+When we know our data requirements, our work begins in the Data Preparation stage as the key component of effort to get right before we move onto creating a concise and flexible Data Model.   Power Query Editor is where you will spend time shaping the data into the right structure.  Then in the Power BI Desktop Model editor is where you define the model - Relationships between the tables, Storage mode for Tables and Calculations.   This all needs to be right before we create visuals.
+
+![image](https://github.com/aidarwin/analyticsprojectstartup/assets/103006306/498464a4-3a47-42d4-9db5-3beb407dbfb0)
+
+Before we get to the data preparation stage however is some fundamental analysis to determine where you need to source your data from. 
+
+The following assets can be used to help identify the requirements and therefore the data sources and lower level details :
 
 ### Project Requirements - MOSCOW Format
 
