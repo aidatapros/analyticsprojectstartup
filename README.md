@@ -12,7 +12,7 @@ The following assets can be used to help identify the requirements and therefore
 
 ### Project Requirements - MOSCOW Format
 
-This table captures project requirements using the MOSCOW format, with high level requirements gathered at a workshop assembled into individual Requirements and grouped by Requirement Group :
+This table captures project requirements using the MOSCOW format, with high level requirements gathered at a workshop assembled into individual Requirements and grouped by Requirement Group.  If you don't have any requirements yet other that to discovery your data to be able to help define requirements then Data Discovery is your requirement.
 
 | Requirement Group        | Requirement ID | Requirement Name         | Must Have | Should Have | Could Have | Won't Have |
 |--------------------------|----------------|--------------------------|-----------|-------------|------------|------------|
