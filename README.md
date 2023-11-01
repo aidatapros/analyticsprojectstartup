@@ -84,6 +84,13 @@ This is a lower level list of datasets you will bring into the Power Query Edito
 | Cloud        | Power Automate          | -       | -            | 2      | -                 |
 | Other        | Third Party             | -       | -            | -      | 10                |
 
+### Visual Design
+
+A blank canvas is the usual starting place for your Power BI Report.   It will help to get your canvas looking like a professional dashboard before you start.  This immediately gets you and your clients thinking about how the data needs to look.
+
+![Concept 1 Wallpaper Starter](https://github.com/aidarwin/analyticsprojectstartup/assets/103006306/8910d20f-0740-47cb-803c-26790ce15e73)
+
+
 ### DAX Calculation & KPI Register: Power BI Accelerator Project
 
 This document provides an overview of all DAX calculations and KPIs utilized in the Power BI Accelerator project. It outlines the purpose, formula, and context of each calculation and KPI to ensure clarity and consistency across the project.
