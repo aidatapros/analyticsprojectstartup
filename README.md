@@ -73,6 +73,35 @@ This is a lower level list of datasets you will bring into the Power Query Edito
 | Group C     | Table5     | 4      | 3       | 2              | 1           | 3   | 4      |
 | Group C     | Table6     | 6      | 5       | 7              | 6           | 8   | 9      |
 
+### High Level Table Register (Table or Table Group Level)
+
+The design of the database schema or semantic model, including the use of a central table and how to best join to filter tables, needs to be evaluated against specific reporting requirements, the volume of data, and the performance considerations.
+
+Declare the grain of the fact table
+Describe the filter tables
+
+Now test this design against these considerations to check the desing of the data model can meet the project objectives:
+
+Reporting Requirements: Ensure that the design meets the reporting requirements of your application. Are you able to retrieve the necessary data efficiently? Does it support the types of queries and reports you need to generate?
+
+Data Volume: Consider the volume of data in your database. If you have a large amount of data, the efficiency of your queries becomes even more critical. Ensure that the schema and indexing are optimized for performance.
+
+Indexing: Proper indexing is crucial for performance in a reporting database. Make sure that appropriate indexes are defined on the columns used in joins and where clauses to speed up query execution.
+
+Query Complexity: Evaluate the complexity of the queries you need to run. If your queries involve multiple joins and aggregations, it's essential to design your schema and indexes to handle these efficiently.
+
+Maintenance: Consider the maintenance aspect of your schema. Many-to-many relationships can be complex to manage, and you'll need to ensure data integrity, especially if records are frequently added or updated.
+
+Denormalization: Depending on your reporting needs, you might consider denormalizing some data to improve query performance. Denormalization can involve duplicating data in a reporting table to reduce the need for complex joins.
+
+Reporting Tools: The choice of reporting tools and software can also impact your design. Some reporting tools may work better with specific database structures, so you should consider the tools you plan to use.
+
+Testing and Optimization: Always test the performance of your reporting queries and continuously optimize them as needed. Database profiling and query optimization techniques can help identify and address performance bottlenecks.
+
+Future Scalability: Consider whether your design can scale to accommodate future data growth and evolving reporting requirements.
+
+In summary, the design of a central table joined to multiple tables in many-to-many relationships can work well for reporting if it's properly optimized for performance and meets your specific requirements. It's important to carefully analyze your use case, data volume, and query complexity to determine if this design is suitable or if any adjustments, such as denormalization or additional indexing, are needed to ensure efficient reporting.
+
 ### High Level License Assessment (License Level)
 
 | Group        | License/Infrastructure  | Readers | Contributors | Admins | Data Storage (GB) |
