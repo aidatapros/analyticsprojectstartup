@@ -4,13 +4,11 @@ The creation of a Power BI report is mashup of data to meet the requirements of 
 
 An idea creation or concept on a page is thought usually through multiple workshops with the custodians of the business case (the people that will be using the Power BI report).  It can be beneficial at this early stage to stage maintaining a list of high level requirements in MOSCOW format (Must have, Should have, Could hve, Won't have) to start forming a written down view of the purpose of doing this work.   A Power BI Data Analyst may sometimes wear the hat of a Business Analyst in the early stages of creating a Power BI report if there is not one assigned to the project. 
 
-When we know our data requirements, our work begins in the Data Preparation stage as the key component of effort to get right before we move onto creating a concise and flexible Data Model.   Power Query Editor is where you will spend time shaping the data into the right structure.  Then in the Power BI Desktop Model editor is where you define the model - Relationships between the tables, Storage mode for Tables and Calculations.   This all needs to be right before we create visuals.
-
-![image](https://github.com/aidarwin/analyticsprojectstartup/assets/103006306/498464a4-3a47-42d4-9db5-3beb407dbfb0)
-
-Before we get to the data preparation stage however is some fundamental analysis to determine where you need to source your data from. 
+When we know our data requirements, our work begins in the Data Preparation stage as the key component of effort to get right before we move onto creating a concise and flexible Data Model.   Power Query Editor is where you will spend time shaping the data into the right structure.  Then in the Power BI Desktop Model editor is where you define the model - Relationships between the tables, Storage mode for Tables and Calculations.   This all needs to be right before we create visuals.  Access to data is always the first challenge and usually begins with a high level discussion with those who are already using those data sources.  Testing the connection works and ensuring you have access to the correct data is the first step in data preparation phase.  This can inform or help articulate requirements and when used with a data dictionary, will help determine the precise specification of where you need to source your data from. 
 
 The following assets can be used to help identify the requirements and therefore the data sources and lower level details :
+
+![image](https://github.com/aidarwin/analyticsprojectstartup/assets/103006306/498464a4-3a47-42d4-9db5-3beb407dbfb0)
 
 ### Project Requirements - MOSCOW Format
 
