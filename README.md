@@ -1,10 +1,21 @@
 ## Analytics Project Startup
 
-The creation of a Power BI report is mashup of data to meet the requirements of a business use case.    
+The creation of a Power BI report is mashup of data to meet the requirements of a business use case.    Business requirements inform data requirements and the output of data requirements is a specification that a Power BI developer can use as the blueprint for the work.  The high level sequence of all steps followed in the creation of a Power BI report follow this key sequence.
 
-An idea creation or concept on a page is thought usually through multiple workshops with the custodians of the business case (the people that will be using the Power BI report).  It can be beneficial at this early stage to stage maintaining a list of high level requirements in MOSCOW format (Must have, Should have, Could hve, Won't have) to start forming a written down view of the purpose of doing this work.   A Power BI Data Analyst may sometimes wear the hat of a Business Analyst in the early stages of creating a Power BI report if there is not one assigned to the project. 
+1. Idea Creation
+2. Business Requirements
+3. Data Requirements
+4. Power BI License and Usage Estimate
+5. Data Preparation
+6. Data Model
+7. Data Visualisation
+8. Sharing and Collaboration
 
-When we know our data requirements, our work begins in the Data Preparation stage as the key component of effort to get right before we move onto creating a concise and flexible Data Model.   Power Query Editor is where you will spend time shaping the data into the right structure.  Then in the Power BI Desktop Model editor is where you define the model - Relationships between the tables, Storage mode for Tables and Calculations.   This all needs to be right before we create visuals.  Access to data is always the first challenge and usually begins with a high level discussion with those who are already using those data sources.  Testing the connection works and ensuring you have access to the correct data is the first step in data preparation phase.  This can inform or help articulate requirements and when used with a data dictionary, will help determine the precise specification of where you need to source your data from. 
+1. Idea Creation
+
+An idea creation or concept on a page is thought usually through multiple workshops with the custodians of the business case (the people that will be using the Power BI report).  It can be beneficial at this early stage to stage maintaining a list of high level requirements in MOSCOW format (Must have, Should have, Could hve, Won't have) to start forming a written down view of the purpose of doing this work.   A Power BI Data Analyst may sometimes wear the hat of a Business Analyst in the early stages of creating a Power BI report if there is not one assigned to the project.
+
+2. Business Requirements
 
 The following assets can be used to help identify the requirements and therefore the data sources and lower level details :
 
@@ -34,6 +45,11 @@ This table captures project requirements using the MOSCOW format, with high leve
 - ✅ Should Have: Important requirements that should be considered.
 - ✅ Could Have: Desirable requirements that could be implemented if resources allow.
 - ✅ Won't Have: Requirements that are explicitly excluded from the current scope.
+
+
+When we know our data requirements, our work begins in the Data Preparation stage as the key component of effort to get right before we move onto creating a concise and flexible Data Model.   Power Query Editor is where you will spend time shaping the data into the right structure.  Then in the Power BI Desktop Model editor is where you define the model - Relationships between the tables, Storage mode for Tables and Calculations.   This all needs to be right before we create visuals.  Access to data is always the first challenge and usually begins with a high level discussion with those who are already using those data sources.  Testing the connection works and ensuring you have access to the correct data is the first step in data preparation phase.  This can inform or help articulate requirements and when used with a data dictionary, will help determine the precise specification of where you need to source your data from. 
+
+3. Data Requirements
 
 Update this table with your project's specific requirements and priorities.
 
@@ -82,6 +98,8 @@ Describe the filter tables
 
 Now test this design against these considerations to check the desing of the data model can meet the project objectives:
 
+4. Power BI License and Usage Estimate
+
 Reporting Requirements: Ensure that the design meets the reporting requirements of your application. Are you able to retrieve the necessary data efficiently? Does it support the types of queries and reports you need to generate?
 
 Data Volume: Consider the volume of data in your database. If you have a large amount of data, the efficiency of your queries becomes even more critical. Ensure that the schema and indexing are optimized for performance.
@@ -112,6 +130,8 @@ In summary, the design of a central table joined to multiple tables in many-to-m
 | Cloud        | Power BI Pro            | 25      | 12           | 5      | 120               |
 | Cloud        | Power Automate          | -       | -            | 2      | -                 |
 | Other        | Third Party             | -       | -            | -      | 10                |
+
+7. Data Visualisation
 
 ### Visual Design
 
