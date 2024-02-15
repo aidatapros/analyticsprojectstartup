@@ -17,7 +17,7 @@ An idea creation or concept on a page is thought usually through multiple worksh
 
 ## 2. Business Requirements
 
-Diving into Power BI is what the tool is designed for, supporting rapid iterations of prototyping in a compact tool that process millions over rows of data on a business laptop.   In Enterprise / Complex use cases a requirements list informs what investment is required and can be the following assets can be used to help identify the requirements and therefore the data sources and lower level details :
+Diving into Power BI is what the tool is designed for, supporting rapid iterations of prototyping in a compact tool that process millions over rows of data on a business laptop.   In Enterprise / Complex use cases a requirements list informs what investment is required and what data is required to underpin.  The first key steps in Power BI report creation are illustrated below.  Business requirments and Data requirements inform what you need to connect, and how the data is modelled, visualised and shared.
 
 ![image](https://github.com/aidarwin/analyticsprojectstartup/assets/103006306/498464a4-3a47-42d4-9db5-3beb407dbfb0)
 
