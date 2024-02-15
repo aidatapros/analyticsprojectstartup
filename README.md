@@ -11,17 +11,17 @@ The creation of a Power BI report is mashup of data to meet the requirements of 
 7. Data Visualisation
 8. Sharing and Collaboration
 
-1. Idea Creation
+## 1. Idea Creation
 
 An idea creation or concept on a page is thought usually through multiple workshops with the custodians of the business case (the people that will be using the Power BI report).  It can be beneficial at this early stage to stage maintaining a list of high level requirements in MOSCOW format (Must have, Should have, Could hve, Won't have) to start forming a written down view of the purpose of doing this work.   A Power BI Data Analyst may sometimes wear the hat of a Business Analyst in the early stages of creating a Power BI report if there is not one assigned to the project.
 
-2. Business Requirements
+## 2. Business Requirements
 
 The following assets can be used to help identify the requirements and therefore the data sources and lower level details :
 
 ![image](https://github.com/aidarwin/analyticsprojectstartup/assets/103006306/498464a4-3a47-42d4-9db5-3beb407dbfb0)
 
-### Project Requirements - MOSCOW Format
+### Business Requirements - MOSCOW Format
 
 This table captures project requirements using the MOSCOW format, with high level requirements gathered at a workshop assembled into individual Requirements and grouped by Requirement Group.  If you don't have any requirements yet other that to discovery your data to be able to help define requirements then Data Discovery is your requirement.
 
@@ -46,17 +46,36 @@ This table captures project requirements using the MOSCOW format, with high leve
 - ✅ Could Have: Desirable requirements that could be implemented if resources allow.
 - ✅ Won't Have: Requirements that are explicitly excluded from the current scope.
 
-
-When we know our data requirements, our work begins in the Data Preparation stage as the key component of effort to get right before we move onto creating a concise and flexible Data Model.   Power Query Editor is where you will spend time shaping the data into the right structure.  Then in the Power BI Desktop Model editor is where you define the model - Relationships between the tables, Storage mode for Tables and Calculations.   This all needs to be right before we create visuals.  Access to data is always the first challenge and usually begins with a high level discussion with those who are already using those data sources.  Testing the connection works and ensuring you have access to the correct data is the first step in data preparation phase.  This can inform or help articulate requirements and when used with a data dictionary, will help determine the precise specification of where you need to source your data from. 
-
-3. Data Requirements
+## 3. Data Requirements
 
 Update this table with your project's specific requirements and priorities.
 
+### Requirements Traceability Matrix
+
+This register matrix provides an organized overview of all the requirements for the Power BI Accelerator project and maps them to their corresponding test case IDs. This ensures that each requirement is tested, validated, and tracked through to completion.  Each requirement will inform data requirements and how the data will be validated in testing.  By diligently maintaining this register, we ensure each requirement's progression is transparent, tested, and validated, ensuring the success of our Power BI accelerator.
+
+| Requirement ID | Requirement Description                                  | Test Cases   | Status       | % Complete  |
+|----------------|-----------------------------------------------------------|--------------|--------------|-------------|
+| REQ001         | The dashboard must provide a real-time sales overview.    | TC001, TC002 | In Progress  | 50%         |
+| REQ002         | Users should be able to filter data by date ranges.       | TC003, TC004 | Completed    | 100%        |
+| REQ003         | Inventory levels must be displayed with visual alerts.    | TC005, TC006 | Not Started  | 0%          |
+| REQ004         | Data integration from the Integrated Justice Information System (IJIS). | TC007, TC008 | In Progress | 75%         |
+| REQ005         | Provide export functionality for all reports in Excel format. | TC009, TC010 | Completed  | 100%        |
+| REQ006         | Implement role-based access controls for different user groups. | TC011, TC012 | In Progress | 60%         |
+| REQ007         | The dashboard must be mobile-responsive.                  | TC013, TC014 | Not Started | 0%          |
+| REQ008         | Data will be sourced from X,Y,Z source systems and manually entered data will be captured through Excel in Teams channel.                  | TC015, TC016 | Not Started | 0%          |
+
+Guidelines for Requirements Traceability Register Maintenance
+
+1. **Requirement Addition**: When a new requirement is identified, add it to this register with a comprehensive description.
+2. **Test Case Association**: Ensure each requirement is linked to its corresponding test case IDs. This guarantees that requirements are validated through testing.
+3. **Status & Completion Tracking**: Regularly update the status and percentage completion of each requirement to keep stakeholders informed.
+4. **Review & Documentation**: Periodically review the register for accuracy and document any changes or updates made to the requirements or their associated test cases.
+
+
 ### Data Source Register
 
-This register provides an overview of all data sources used in the Power BI Accelerator project, detailing specifics, update frequency, status, data ownership, and authentication method for each source.  This is a high level list of data sources you will connect to in order to then select tables to bring into the Power Query Editor.
-
+This register provides an overview of all data sources used in the Power BI Accelerator project, detailing specifics, update frequency, status, data ownership, and authentication method for each source.  This is a high level list of data sources you will connect to in order to then select tables to bring into the Power Query Editor.  By maintaining this register, we aim for transparency, accuracy, and security in our data sources, and inform the first step in Preparation of Data in Power BI - "Get Data". 
 
 | Source ID | Data Source Name                        | Description                                                | Type      | Location/Endpoint         | Update Frequency | Status     | Data Owner    | Authentication By       |
 |-----------|-----------------------------------------|------------------------------------------------------------|-----------|---------------------------|------------------|------------|---------------|-------------------------|
@@ -74,7 +93,6 @@ Data Source Management Guidelines
 4. **Ownership & Responsibility**: Assign a specific data owner for each source. They will oversee updates, quality checks, and handle data-related issues.
 5. **Security & Authentication**: Implement secure authentication methods and review them periodically to mitigate security risks.
 
-By maintaining this register, we aim for transparency, accuracy, and security in our data sources, the backbone of our Power BI reports.
 
 ### High Level Table Register (Table or Table Group Level)
 
@@ -98,7 +116,7 @@ Describe the filter tables
 
 Now test this design against these considerations to check the desing of the data model can meet the project objectives:
 
-4. Power BI License and Usage Estimate
+## 4. Power BI License and Usage Estimate
 
 Reporting Requirements: Ensure that the design meets the reporting requirements of your application. Are you able to retrieve the necessary data efficiently? Does it support the types of queries and reports you need to generate?
 
@@ -131,7 +149,17 @@ In summary, the design of a central table joined to multiple tables in many-to-m
 | Cloud        | Power Automate          | -       | -            | 2      | -                 |
 | Other        | Third Party             | -       | -            | -      | 10                |
 
-7. Data Visualisation
+## 5. Data Preparation
+
+When we know our data requirements, our work begins in the Data Preparation stage as the key component of effort to get right before we move onto creating a concise and flexible Data Model.   Power Query Editor is where you will spend time shaping the data into the right structure.  Then in the Power BI Desktop Model editor is where you define the model - Relationships between the tables, Storage mode for Tables and Calculations.   This all needs to be right before we create visuals.  Access to data is always the first challenge and usually begins with a high level discussion with those who are already using those data sources.  Testing the connection works and ensuring you have access to the correct data is the first step in data preparation phase.  This can inform or help articulate requirements and when used with a data dictionary, will help determine the precise specification of where you need to source your data from. 
+
+In the data preparation step, a high level understanding or statement about "The Grain" of the data should already be known.
+
+## 6. Data Model
+
+
+
+## 7. Data Visualisation
 
 ### Visual Design
 
@@ -182,29 +210,15 @@ Guidelines for Calculation and Register Maintenance
 4. **Documentation**: Document any changes or updates made to existing calculations or KPIs.
 
 By maintaining this register, we aim for clarity, accuracy, and consistency in our DAX calculations and KPIs, ensuring the reliability and relevance of our Power BI reports.
+## 8. Sharing and Collaboration
 
-### Requirements Traceability Matrix
+Roles and Permission register.
 
-This register matrix provides an organized overview of all the requirements for the Power BI Accelerator project and maps them to their corresponding test case IDs. This ensures that each requirement is tested, validated, and tracked through to completion.
+To do...
 
-| Requirement ID | Requirement Description                                  | Test Cases   | Status       | % Complete  |
-|----------------|-----------------------------------------------------------|--------------|--------------|-------------|
-| REQ001         | The dashboard must provide a real-time sales overview.    | TC001, TC002 | In Progress  | 50%         |
-| REQ002         | Users should be able to filter data by date ranges.       | TC003, TC004 | Completed    | 100%        |
-| REQ003         | Inventory levels must be displayed with visual alerts.    | TC005, TC006 | Not Started  | 0%          |
-| REQ004         | Data integration from the Integrated Justice Information System (IJIS). | TC007, TC008 | In Progress | 75%         |
-| REQ005         | Provide export functionality for all reports in Excel format. | TC009, TC010 | Completed  | 100%        |
-| REQ006         | Implement role-based access controls for different user groups. | TC011, TC012 | In Progress | 60%         |
-| REQ007         | The dashboard must be mobile-responsive.                  | TC013, TC014 | Not Started | 0%          |
+Handover to Support knowledge base.
 
-Guidelines for Requirements Traceability Register Maintenance
-
-1. **Requirement Addition**: When a new requirement is identified, add it to this register with a comprehensive description.
-2. **Test Case Association**: Ensure each requirement is linked to its corresponding test case IDs. This guarantees that requirements are validated through testing.
-3. **Status & Completion Tracking**: Regularly update the status and percentage completion of each requirement to keep stakeholders informed.
-4. **Review & Documentation**: Periodically review the register for accuracy and document any changes or updates made to the requirements or their associated test cases.
-
-By diligently maintaining this register, we ensure each requirement's progression is transparent, tested, and validated, ensuring the success of our Power BI accelerator.
+To do...
 
 High Change Management Register (Individual Change Level)
 
