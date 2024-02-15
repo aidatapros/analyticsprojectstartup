@@ -17,7 +17,7 @@ An idea creation or concept on a page is thought usually through multiple worksh
 
 ## 2. Business Requirements
 
-The following assets can be used to help identify the requirements and therefore the data sources and lower level details :
+Diving into Power BI is what the tool is designed for, supporting rapid iterations of prototyping in a compact tool that process millions over rows of data on a business laptop.   In Enterprise / Complex use cases a requirements list informs what investment is required and can be the following assets can be used to help identify the requirements and therefore the data sources and lower level details :
 
 ![image](https://github.com/aidarwin/analyticsprojectstartup/assets/103006306/498464a4-3a47-42d4-9db5-3beb407dbfb0)
 
@@ -56,14 +56,14 @@ This register matrix provides an organized overview of all the requirements for 
 
 | Requirement ID | Requirement Description                                  | Test Cases   | Status       | % Complete  |
 |----------------|-----------------------------------------------------------|--------------|--------------|-------------|
-| REQ001         | The dashboard must provide a real-time sales overview.    | TC001, TC002 | In Progress  | 50%         |
-| REQ002         | Users should be able to filter data by date ranges.       | TC003, TC004 | Completed    | 100%        |
-| REQ003         | Inventory levels must be displayed with visual alerts.    | TC005, TC006 | Not Started  | 0%          |
-| REQ004         | Data integration from the Integrated Justice Information System (IJIS). | TC007, TC008 | In Progress | 75%         |
-| REQ005         | Provide export functionality for all reports in Excel format. | TC009, TC010 | Completed  | 100%        |
-| REQ006         | Implement role-based access controls for different user groups. | TC011, TC012 | In Progress | 60%         |
-| REQ007         | The dashboard must be mobile-responsive.                  | TC013, TC014 | Not Started | 0%          |
-| REQ008         | Data will be sourced from X,Y,Z source systems and manually entered data will be captured through Excel in Teams channel.                  | TC015, TC016 | Not Started | 0%          |
+| B01         | The dashboard must provide a real-time sales overview.    | TC001, TC002 | In Progress  | 50%         |
+| B02         | Users should be able to filter data by date ranges.       | TC003, TC004 | Completed    | 100%        |
+| X01         | Inventory levels must be displayed with visual alerts.    | TC005, TC006 | Not Started  | 0%          |
+| X02         | Data integration from the Integrated Justice Information System (IJIS). | TC007, TC008 | In Progress | 75%         |
+| X03         | Provide export functionality for all reports in Excel format. | TC009, TC010 | Completed  | 100%        |
+| X04         | Implement role-based access controls for different user groups. | TC011, TC012 | In Progress | 60%         |
+| X05         | The dashboard must be mobile-responsive.                  | TC013, TC014 | Not Started | 0%          |
+| R01         | Data will be sourced from X,Y,Z source systems and manually entered data will be captured through Excel in Teams channel.                  | TC015, TC016 | Not Started | 0%          |
 
 Guidelines for Requirements Traceability Register Maintenance
 
