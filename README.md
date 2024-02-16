@@ -1,6 +1,6 @@
 ## Analytics Project Startup
 
-The creation of a Power BI report is mashup of data to meet the requirements of a business use case.    Business requirements inform data requirements and the output of data requirements is a specification that a Power BI developer can use as the blueprint for the work.  The high level sequence of all steps followed in the creation of a Power BI report follow this key sequence.
+The creation of a Power BI report is an exercise of sourcing and mashing up of data to meet the requirements of a business use case.    Requirement including the Business requirements which in turn inform data requirements.   The output of both business and data requirements is a specification that a Power BI developer can use as the blueprint for the work to be carried out.  The high level sequence of all steps followed in the creation of a Power BI report follow this key sequence.
 
 1. Idea Creation
 2. Business Requirements
