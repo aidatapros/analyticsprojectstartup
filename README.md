@@ -13,7 +13,7 @@ The creation of a Power BI report is an exercise of sourcing and mashing up of d
 
 ## 1. Idea Creation
 
-An idea creation or concept on a page is thought usually through multiple workshops with the custodians of the business case (the people that will be using the Power BI report).  It can be beneficial at this early stage to stage maintaining a list of high level requirements in MOSCOW format (Must have, Should have, Could hve, Won't have) to start forming a written down view of the purpose of doing this work.   A Power BI Data Analyst may sometimes wear the hat of a Business Analyst in the early stages of creating a Power BI report if there is not one assigned to the project.
+An idea creation or concept on a page is a good starting point for the start of the project.   This is usually thought through without a lot of structure to allow ideas to be thought through critically.   Idea creation can include one or more workshops with the custodians of the business case (the people that will be using the Power BI report).  The output of Idea creation workshops informs a concept on a page or high level list of high level requirements in MOSCOW format (Must have, Should have, Could hve, Won't have) which informs the project team and the stakeholders on the purpose of doing this work.   A Power BI Data Analyst may sometimes wear the hat of a Business Analyst in the early stages of creating a Power BI report if there is not one assigned to the project.   This means the Power BI Data Analyst may need to organise and lead these workshops and will therefore need a clear view of who the stakeholders are and what are their roles.
 
 ## 2. Business Requirements
 
