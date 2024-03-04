@@ -1,6 +1,8 @@
 ## Analytics Project Startup
 
-The creation of a Power BI report is an exercise of sourcing and mashing up of data to meet the requirements of a business use case.    Requirement including the Business requirements which in turn inform data requirements.   The output of both business and data requirements is a specification that a Power BI developer can use as the blueprint for the work to be carried out.  The high level sequence of all steps followed in the creation of a Power BI report follow this key sequence.
+This page serves as a guide for documenting the requirements and support functions for a Power BI report.   The initial creation of a Power BI report is an exercise of sourcing and mashing up of data to meet the requirements of a business use case.    Requirement including the Business requirements which in turn inform data requirements.   The output of both business and data requirements is a specification that a Power BI developer can use as the blueprint for the work to be carried out.   Once handed over and used in production the support requirements and commonly known procedures for likely issues should be documented.   
+
+The documentation follows these sections :
 
 1. Idea Creation
 2. Business Requirements
@@ -10,6 +12,7 @@ The creation of a Power BI report is an exercise of sourcing and mashing up of d
 6. Data Model
 7. Data Visualisation
 8. Sharing and Collaboration
+9. Support
 
 ## 1. Idea Creation
 
@@ -223,7 +226,18 @@ Handover to Support knowledge base.
 
 To do...
 
-High Change Management Register (Individual Change Level)
+## Support
+
+A list of commonly known issues is outlined here and the process for supporting this Power BI report.
+
+### Common Issues
+
+e.g.1 If there is no data in the Year to Date figures then it is likely the calendar may not be programmed for the date ranges in your report.  Steps to resolve :
+1. Open the Power Query
+2. Check the dates used in the Power Query are not limiting the year
+3. Refresh the Power Query
+
+### High Change Management Register (Individual Change Level)
 
 | Change ID | Change Description                                  | Requested By | Date Requested | Impact on Timeline | Adjusted Plan                                         | Status     | Approved By | Date Approved |
 |-----------|------------------------------------------------------|--------------|----------------|---------------------|-------------------------------------------------------|------------|-------------|---------------|
@@ -251,6 +265,6 @@ High Change Management Register (Individual Change Level)
 
 For questions or additional information, please contact:
 
-- Email: peter@aidarwin.com.au
+- Email: peter@aidatapros.com
 
 We look forward to helping you succeed in your Analytics Project Startup!
